@@ -5,7 +5,12 @@
 
 [![classpip-icon](https://github.com/classpip/classpip/raw/master/resources/icontext-land.png)](http://www.classpip.com/)
 
-[Classpip](https://www.classpip.com) is a Mobile application for School Gamification. The application is builded around a stack of services and websites to provide a full experience in order to gamificate any educational environment.
+[Classpip](https://www.classpip.com) is a software architecture for teachers and students to perform school gamification activities inside the school environment through different platforms such as mobiles, tablets and computers.
+
+[![classpip-arch](https://github.com/classpip/classpip/raw/master/images/project-architecture.png)](http://www.classpip.com/)
+
+The software architecture is composed by a [mobile application](https://github.com/classpip/classpip-mobile) for performing “quick” class activities oriented to teachers and students. For “long” operations such as deep into reports and setup the platform there is an [administration dashboard](https://github.com/classpip/classpip-dashboard) accessible from every computer. These two pieces shares the information through a [service-oriented architecture](https://github.com/classpip/classpip-services) that exposes the main methods for data manipulation. Besides, the software architecture will provide and open [website](https://github.com/classpip/classpip-website) for marketing and publicity purposes.
+
 
 ## Repositories
 
