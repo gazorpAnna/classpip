@@ -7,9 +7,11 @@
 
 [Classpip](https://www.classpip.com) is a software architecture for teachers and students to perform school gamification activities inside the school environment through different platforms such as mobiles, tablets and computers.
 
+The software architecture is composed by a [mobile application](https://github.com/classpip/classpip-mobile) for performing “quick” class activities oriented to teachers and students. For “long” operations such as deep into reports and setup the platform there is an [administration dashboard](https://github.com/classpip/classpip-dashboard) accessible from every computer. These two pieces shares the information through a [service-oriented architecture](https://github.com/classpip/classpip-services) that exposes the main methods for data manipulation. Besides, the software architecture will provide and open [website](https://github.com/classpip/classpip-website) for marketing and publicity purposes.
+
 [![classpip-arch](https://github.com/classpip/classpip/raw/master/images/project-architecture.png)](http://www.classpip.com/)
 
-The software architecture is composed by a [mobile application](https://github.com/classpip/classpip-mobile) for performing “quick” class activities oriented to teachers and students. For “long” operations such as deep into reports and setup the platform there is an [administration dashboard](https://github.com/classpip/classpip-dashboard) accessible from every computer. These two pieces shares the information through a [service-oriented architecture](https://github.com/classpip/classpip-services) that exposes the main methods for data manipulation. Besides, the software architecture will provide and open [website](https://github.com/classpip/classpip-website) for marketing and publicity purposes.
+All the project is supported for some open-source tools to configure an agile environment combined with a [continuous integration](https://travis-ci.org/classpip) system for [continuous deployment](https://hub.docker.com/u/classpip/) on different platforms.
 
 
 ## Repositories
